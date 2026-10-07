@@ -1,10 +1,12 @@
-const CACHE_NAME = 'yuzuki-recovery-v2';
+const CACHE_NAME = 'yuzuki-recovery-v3';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
+  './icons/icon-192.png',
+  './icons/icon-512.png',
   'https://cdn.tailwindcss.com',
-  'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+  'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css'
 ];
 
 self.addEventListener('install', (e) => {
