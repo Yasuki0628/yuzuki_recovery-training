@@ -1,4 +1,4 @@
-const CACHE_NAME = 'yuzuki-recovery-v1';
+const CACHE_NAME = 'yuzuki-recovery-v2';
 const ASSETS = [
   './',
   './index.html',
